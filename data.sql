@@ -11,3 +11,5 @@ CREATE TABLE `products` (
 INSERT INTO `products` VALUES ('1', 'Iphone X', 'Black', '30000000');
 INSERT INTO `products` VALUES ('2', 'Samsung S9', 'White', '24000000');
 INSERT INTO `products` VALUES ('3', 'Oppo F5', 'Red', '7000000');
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '12345';
